@@ -1,1 +1,5 @@
+! name: "Google"
+! description: What my Goggle does
+! public: true
+! author: parvezmamun
 https://www.google.com/search?q=%s
