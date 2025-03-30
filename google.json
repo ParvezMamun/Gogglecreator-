@@ -1,0 +1,16 @@
+{
+  "title": "Parvez Mamun's Brave Goggle",
+  "description": "A custom Brave Goggle to modify search results.",
+  "rules": [
+    {
+      "action": "boost",
+      "pattern": "ioskid.weebly.com",
+      "weight": 1.5
+    },
+    {
+      "action": "demote",
+      "pattern": "lowqualitysite.com",
+      "weight": -1.0
+    }
+  ]
+}
